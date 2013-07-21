@@ -9,6 +9,7 @@ http://www.swftools.org/download.html. I hv used swftools to generate swf file f
 loaded the swf as an external swf file in project swf.
 
 To Run swftools I hv used java. Here is my java code sample to run swftools
+<pre>
     public static void main(String[] args) {
         try {
             Runtime rt = Runtime.getRuntime();
@@ -29,6 +30,7 @@ To Run swftools I hv used java. Here is my java code sample to run swftools
             e.printStackTrace();
         }
     }
+    </pre>
 
 If we load the external swf as SWFLoader we cannot handle page by page. So If we want to control the swf then we need to 
 load it as streamLoader. I hv found a class name "ForcibleLoader" from 
