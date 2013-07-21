@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
 			   xmlns:s="library://ns.adobe.com/flex/spark" 
-			   xmlns:mx="library://ns.adobe.com/flex/mx" minWidth="955" minHeight="600" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" minWidth="955" minHeight="600" backgroundColor="#B5AEAE"
 			   creationComplete="init()" xmlns:views="org.pdf.views.*" xmlns:pdf="org.pdf.*">
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
@@ -14,7 +14,7 @@
 			import mx.managers.DragManager;
 			
 			import org.pdf.ForcibleLoader;
-			private var documentURL:String = "documents/doc.swf";
+			private var documentURL:String = "documents/outra.swf";
 			private var movieClip:MovieClip = new MovieClip;
 			private var startPoint:Point = new Point;
 			private var endPoint:Point = new Point;
@@ -35,17 +35,17 @@
 				
 				pdfViewer.addChild(fLoader.loader);
 
-
 			}
 			
 			private function pdfLoadingCompleteEvent(event:Event):void{
 				if(event.currentTarget.content is MovieClip){
 					movieClip = event.currentTarget.content as MovieClip;
 					pdfViewer.height = movieClip.height;
+					//scroller.height = movieClip.height;
+					//vg.height = movieClip.height;
 					pdfViewer.width = movieClip.width;
 					movieClip.gotoAndStop(1);
 					controls.target = movieClip;
-					movieClip.gotoAndStop(31);
 					controls.currentPage = movieClip.currentFrame;
 					controls.Pages = movieClip.totalFrames;
 				}
@@ -83,6 +83,7 @@
 			protected function pdfViewer_mouseMoveHandler(event:MouseEvent):void
 			{
 				if(draggingStarted){
+					scroller.verticalScrollBar.value = mouseY;
 					endPoint = new Point(event.localX, event.localY);
 					drawRegion();
 				}
@@ -137,15 +138,27 @@
 
 		]]>
 	</fx:Script>
-	<mx:VBox width="100%" height="100%" verticalGap="10" backgroundColor="#B5AEAE">
+	<!--<mx:VBox width="100%" verticalGap="10" backgroundColor="#B5AEAE"  verticalScrollPolicy="on">
 		<pdf:Control id="controls" borderStyle="solid" borderColor="#B5AEAE"/>
 		<mx:HBox width="100%" height="100%" backgroundColor="#B5AEAE" horizontalAlign="center">
-			<mx:UIComponent id="pdfViewer" mouseEnabled="true" 
+			<mx:UIComponent id="pdfViewer" mouseEnabled="true"
 							mouseMove="pdfViewer_mouseMoveHandler(event)"
 							mouseUp="pdfViewer_mouseUpHandler(event)" 
 							mouseDown="pdfViewer_mouseDownHandler(event)"/>	
 		</mx:HBox>
-	</mx:VBox>
-
+	</mx:VBox>-->
+	<s:Scroller id="scroller" height="100%" width="100%">
+		<s:Group width="100%" height="100%">
+			<s:VGroup width="100%" height="100%" paddingBottom="50">
+				<pdf:Control id="controls" borderStyle="solid" borderColor="#B5AEAE"/>
+				<s:HGroup width="100%" height="100%" horizontalAlign="center">
+					<mx:UIComponent id="pdfViewer" mouseEnabled="true"
+									mouseMove="pdfViewer_mouseMoveHandler(event)"
+									mouseUp="pdfViewer_mouseUpHandler(event)" 
+									mouseDown="pdfViewer_mouseDownHandler(event)"/>	
+				</s:HGroup>
+			</s:VGroup>
+		</s:Group>
+	</s:Scroller>
 	
 </s:Application>
