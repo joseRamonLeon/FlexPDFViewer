@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:HBox
+ xmlns:mx="http://www.adobe.com/2006/mxml"
+ xmlns:html="com.htmlFilter.*"
+ horizontalGap = "0"
+ borderStyle="solid"
+ width="100%">
+
+ <mx:Script>
+  <![CDATA[
+   import com.htmlFilter.*;
+   import mx.core.Container;
+
+   private var theText:String = null;
+   private var theHtmlFilter:htmlFilter = new htmlFilter();
+   private var theClass:String;
+   private var theType:String = null;
+
+   [Bindable]
+   public function get Txt():String
+   {
+    return theText;
+   }
+   public function set Txt(inText:String):void
+   {
+    if (theType != null)
+    {
+     var spTag:RegExp = new RegExp("<" + theType + " class=\"(?P<c>[^\"]*)\"(?P<extra>[^>]*)>", "g");
+     var temp:String;
+     temp = inText.replace(spTag, replaceStartTag);
+     temp = temp.replace("</" + theType + ">", "</" + theClass + ">");
+     theText = theHtmlFilter.filterContent(temp);
+    }
+    else
+    {
+     theText = inText;
+    }
+   }
+
+   private function replaceStartTag(found:String, c:String, extra:String, index:int, other:int):String
+   {
+    theClass = c;
+    return "<" + c + extra + ">"
+   }
+
+   [Bindable]
+   public function get type():String
+   {
+    return theType;
+   }
+   public function set type(inType:String):void
+   {
+    theType = inType;
+    if (theText != null)
+    {
+     Txt = theText;
+    }
+   }
+
+   [Bindable]
+   public var styles:StyleSheet;
+
+   ]]>
+ </mx:Script>
+
+ <html:box width="10"/>
+
+ <mx:Canvas width="100%" height="{htxt.tHeight}" id="txtbox">
+  <html:htmlText text="{Txt}" id="htxt"
+   width="100%" height="100%" cssFile="assets/css/html.css"
+   creationComplete="{height=htxt.tHeight}"
+   vScroll="off"/>
+ </mx:Canvas>
+</mx:HBox>

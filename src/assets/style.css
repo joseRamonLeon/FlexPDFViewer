@@ -1,0 +1,36 @@
+.box
+{
+	borderStyle:solid;
+	backgroundColor: #d3dfe5;
+	borderColor: #4f5a5f;
+	borderThickness: 1;
+}
+
+.tableTD
+{
+	borderStyle:solid;
+	backgroundColor: #ededed;
+	borderColor: #000000;
+	borderThickness: 1;
+}
+
+.tableTDEmpty
+{
+	backgroundColor: #FFFFFF;
+}
+
+.tableTH
+{
+	borderStyle:solid;
+	backgroundColor: #dddddd;
+	borderColor: #000000;
+	borderThickness: 1;
+}
+
+.tableRow
+{
+	borderStyle:solid;
+	backgroundColor: #FFFFFF;
+	borderColor: #000000;
+	borderThickness: 1;
+}

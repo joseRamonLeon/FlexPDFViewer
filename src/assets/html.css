@@ -1,0 +1,92 @@
+p
+{
+	paddingBottom: 10;
+	marginBottom: 10;
+	fontSize: 12px;
+	fontFamily: verdana;
+}
+
+a
+{
+	fontFamily : Verdana;
+	fontWeight: bold;
+	fontSize: 12;
+	color: #0066FF;
+	leading: 4;
+	textDecoration: underline;
+}
+
+.listItems
+{
+	paddingBottom: 10;
+	marginBottom: 10;
+	fontSize: 12px;
+	fontFamily: verdana;
+}
+
+.htmlCellText
+{
+	paddingBottom: 10;
+	marginBottom: 10;
+	fontSize: 12px;
+	fontFamily: verdana;
+}
+
+
+.htmlTableCaption
+{
+	textAlign: center;
+	fontWeight: bold;
+	paddingLeft: 10;
+	paddingTop: 5;
+	borderStyle: none;
+	fontSize: 12px;
+	fontFamily: verdana;
+}
+
+.htmlTableReference
+{
+	fontWeight: bold;
+	paddingLeft: 10;
+	paddingTop: 5;
+	borderStyle: none;
+	fontSize: 12px;
+	fontFamily: verdana;
+}
+
+.h0
+{
+	fontFamily : Verdana;
+	fontWeight: bold;
+	fontSize: 30;
+	leading: 10;
+	textAlign: center;
+	
+}
+
+.h1
+{
+	fontFamily : Verdana;
+	fontWeight: bold;
+	fontSize: 20;
+	leading: 10;
+	
+}
+
+.h2
+{
+	fontFamily : Verdana;
+	fontWeight: bold;
+	fontSize: 16;
+	leading: 4;
+	
+}
+
+.h3
+{
+	fontFamily : Verdana;
+	fontWeight: bold;
+	fontSize: 15;
+	leading: 3;
+	
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:ViewStack
+ xmlns:mx="http://www.adobe.com/2006/mxml"
+ xmlns:html="com.htmlFilter.*"
+ xmlns:special="com.htmlFilter.special.*"
+ width="100%">
+
+ <mx:Script>
+  <![CDATA[
+
+   import com.htmlFilter.*;
+   import com.htmlFilter.debug;
+
+   private var theText:String;
+
+   [Bindable]
+   private var theType:String;
+
+   [Bindable]
+   public function get Txt():String
+   {
+    return theText;
+   }
+   public function set Txt(inText:String):void
+   {
+    theText = inText;
+   }
+
+   [Bindable]
+   public var styles:StyleSheet;
+
+   public function set type(inType:String):void
+   {
+    theType = inType;
+
+    switch (inType)
+    {
+     case "sp":
+      //selectedChild = assessBox;
+      break;
+    }
+   }
+
+   ]]>
+ </mx:Script>
+
+
+ <special:sp id="spBox" type="{theType}" Txt="{Txt}" styles="{styles}" width="100%"
+ creationComplete="{height = spBox.height}" />
+
+
+</mx:ViewStack>

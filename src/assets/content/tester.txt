@@ -1,0 +1,74 @@
+<h1>hello there</h1>
+<ol starter="(">
+<li>bullet one
+<ol type="A">
+<li>a very long line that shows off the fact that it indents very nicely when the line wraps around because it is that long. It uses tabstops and indents to do this, and it seems to work very very very very nicely.....
+<ul>
+<li>a nested bulleted item</li>
+</ul>
+</li>
+<li>second lettered item</li>
+</ol>
+</li>
+<li>some more numbered items</li>
+<li>and some more</li>
+<li>notice how every number in this list has a '(' before it? that's optional :)</li>
+</ol>
+
+<sp class="h1">Testing the special case functionality</sp>
+
+<ol starter=".." ender="..">
+<li>you can specify anything to come before or after the numbers</li>
+</ol>
+
+<ul starter="..(" ender=")..">
+<li>even works for bulleted lists</li>
+</ul>
+
+<table>
+<caption>Table 1</caption>
+<reference>Reference : my imagination</reference>
+<tr>
+<th>row 1, cell 1</th>
+<th colspan="2">row 1, cell 2</th>
+</tr>
+<tr>
+<td class="empty">row 2, cell 1.<br/> with class empty, so that it uses the "htmlTDEmpty" style defined in styles.css to make the background of this cell white.</td>
+<td>row 2, cell 2</td>
+<td>row 2, cell 3
+<a href="http://www.google.com" target="_blank">a link</a>
+<ol type="i">
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+<li>6</li>
+<li>7</li>
+<li>8</li>
+<li>9</li>
+<li>10</li>
+<li>11</li>
+<li>12</li>
+<li>13</li>
+<li>14</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+</table>
+
+
+<br><p>more test</p>
+
+<ol type="I">
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>
+<li>5</li>
+</ol>

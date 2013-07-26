@@ -14,7 +14,7 @@
 			import mx.managers.DragManager;
 			
 			import org.pdf.ForcibleLoader;
-			private var documentURL:String = "documents/outra.swf";
+			private var documentURL:String = "documents/wiki.swf";
 			private var movieClip:MovieClip = new MovieClip;
 			private var startPoint:Point = new Point;
 			private var endPoint:Point = new Point;

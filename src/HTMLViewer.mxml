@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" 
+			   creationComplete="setTheData()"
+			   minWidth="955" minHeight="600" 
+			   xmlns:htmlFilter="com.htmlFilter.*">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+		
+	</fx:Declarations>
+	<fx:Style source="assets/style.css"/>
+	<fx:Script>
+		<![CDATA[
+			import com.htmlFilter.htmlFilter;
+			import flash.events.*;
+			import flash.net.URLLoader;
+			import flash.net.URLRequest;
+			
+			private var theText:String = "Page is loading, please wait";
+			
+			private var defaultTxt:String;
+			
+			private var theHtmlFilter:htmlFilter = new htmlFilter();
+			
+			private function setTheData ():void
+			{
+				var request:URLRequest = new URLRequest("http://localhost/FlexPDFViewer/assets/content/tester.txt");
+				var loader:URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE, gotData);
+				loader.load(request);
+				
+			}
+			
+			private function gotData(event:Event):void
+			{
+				var loader2:URLLoader = URLLoader(event.target);
+				defaultTxt = loader2.data;
+				raw.text = loader2.data;
+				Txt = loader2.data;
+			}
+			
+			[Bindable]
+			private function get Txt():String
+			{
+				return theText;
+			}
+			private function set Txt(inText:String):void
+			{
+				theText = theHtmlFilter.filterContent(inText);
+			}
+		]]>
+	</fx:Script>
+	<mx:HBox width="100%" height="100%" >
+		<mx:VBox width="100%" height="100%" >
+			<mx:VBox width="95%" height="100%" styleName="plain">
+				<htmlFilter:htmlText text="{Txt}"
+							   width="100%" height="100%" cssFile="assets/html.css"/>
+			</mx:VBox>
+		</mx:VBox>
+		
+		<mx:VBox width="100%" height="100%" >
+			<mx:TextArea text="Page loading, please wait" id="raw" width="95%" height="100%" />
+			<mx:HBox width="100%" horizontalAlign="center">
+				<mx:Button label="reset" click="{Txt = defaultTxt; raw.text = defaultTxt}"/>
+				<mx:Button label="set new text" click="{Txt = raw.text}"/>
+			</mx:HBox>
+			<mx:Spacer height="3"/>
+			
+		</mx:VBox>
+		
+	</mx:HBox>
+
+</s:Application>

@@ -15,6 +15,7 @@
   </compiler>
   <applications>
     <application path="FlexPDFViewer.mxml"/>
+    <application path="HTMLViewer.mxml"/>
   </applications>
   <modules/>
   <buildCSSFiles/>
