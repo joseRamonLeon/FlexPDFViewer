@@ -53,29 +53,6 @@ package com.pdf.canvas
 			_regionConfigContent = value;
 		}
 		
-		public function nextPage():void
-		{
-			if( currentPageNo < noOfPages )
-			{
-				currentPageNo ++;
-				clearAllSelection();
-				drawPageRegion();
-				movieClip.nextFrame();
-			}
-		}
-		
-		public function prevPage():void 
-		{
-			if( currentPageNo > 1 )
-			{
-				currentPageNo --;
-				clearAllSelection();
-				drawPageRegion();
-				movieClip.prevFrame();
-			}
-		}
-		
-		
 		public function PDFCanvas()
 		{
 			super();
@@ -135,7 +112,27 @@ package com.pdf.canvas
 			 * */
 			addChild(fLoader.loader);
 		}
+		public function nextPage():void
+		{
+			if( currentPageNo < noOfPages )
+			{
+				currentPageNo ++;
+				clearAllSelection();
+				drawPageRegion();
+				movieClip.nextFrame();
+			}
+		}
 		
+		public function prevPage():void 
+		{
+			if( currentPageNo > 1 )
+			{
+				currentPageNo --;
+				clearAllSelection();
+				drawPageRegion();
+				movieClip.prevFrame();
+			}
+		}
 		private function fLoader__completeEventHandler(event:Event):void
 		{
 			clearAllSelection();
