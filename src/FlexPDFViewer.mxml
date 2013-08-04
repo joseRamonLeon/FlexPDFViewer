@@ -105,10 +105,6 @@
 	<s:Scroller id="scroller" height="100%" width="100%">
 		<s:Group width="100%" height="100%">
 			<s:VGroup width="100%" height="100%" paddingBottom="50">
-				<control:Control id="controls" pdfCanvas="{pdfViewer}" 
-								 noOfPages="{pdfViewer.noOfPages}"
-								 borderStyle="solid" 
-								 borderColor="#B5AEAE"/>
 				<mx:HBox width="100%">
 					<s:Button id="loadFile" label="Load" click="loadFile_clickHandler(event)"/>
 					<s:DropDownList id="documentList" selectedIndex="0">
@@ -117,9 +113,14 @@
 							<fx:String>wiki.swf</fx:String>
 						</s:ArrayCollection>
 					</s:DropDownList>
-					
 					<s:Button id="showFile" label="ShowConfig" click="showFile_clickHandler(event)"/>
 				</mx:HBox>
+				<control:Control id="controls" pdfCanvas="{pdfViewer}" 
+								 noOfPages="{pdfViewer.noOfPages}"
+								 currentPage="{pdfViewer.currentPageNo}"
+								 borderStyle="solid" 
+								 borderColor="#B5AEAE"/>
+
 				<s:HGroup width="100%" height="100%" horizontalAlign="center">
 
 						<canvas:PDFCanvas id="pdfViewer"

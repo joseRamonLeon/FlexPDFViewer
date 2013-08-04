@@ -13,7 +13,7 @@
 			[Bindable]
 			private var _pdfCanvas:PDFCanvas = new  PDFCanvas;
 			[Bindable]
-			private var currentPage:int = 1;
+			public var currentPage:int = 1;
 			[Bindable]
 			public var noOfPages:int = 1;
 
@@ -44,7 +44,9 @@
 			
 		]]>
 	</fx:Script>
-	<mx:Button id="btnCurrentPage" label="Previous Page" click="btnCurrentPage_clickHandler(event)"/>
-	<mx:Button id="btnNextPage" label="Next Page" click="btnNextPage_clickHandler(event)"/>
+	<s:Image id="btnCurrentPage" click="btnCurrentPage_clickHandler(event)"
+			 source="assets/prev.png"/>
+	<s:Image id="btnNextPage" click="btnNextPage_clickHandler(event)"
+			 source="assets/next.png"/>
 	<mx:Label text="{currentPage + '/'+ noOfPages + ' Pages'}"/>
 </mx:HBox>
