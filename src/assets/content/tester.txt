@@ -33,9 +33,8 @@
 <th colspan="2">row 1, cell 2</th>
 </tr>
 <tr>
-<td class="empty">row 2, cell 1.<br/> with class empty, so that it uses the "htmlTDEmpty" style defined in styles.css to make the background of this cell white.</td>
-<td>row 2, cell 2</td>
-<td>row 2, cell 3
+<td class="empty" >row 2, cell 1.<br/> with class empty, so that it uses the "htmlTDEmpty" style defined in styles.css to make the background of this cell white.</td>
+<td colspan="2">row 2, cell 3
 <a href="http://www.google.com" target="_blank">a link</a>
 <ol type="i">
 <li>1</li>

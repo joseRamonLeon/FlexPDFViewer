@@ -2,160 +2,72 @@
 <s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
 			   xmlns:s="library://ns.adobe.com/flex/spark" 
 			   xmlns:mx="library://ns.adobe.com/flex/mx" minWidth="955" minHeight="600" backgroundColor="#B5AEAE"
-			   creationComplete="init()" xmlns:views="org.pdf.views.*" xmlns:pdf="org.pdf.*">
+			   creationComplete="init()" xmlns:views="org.pdf.views.*" xmlns:pdf="org.pdf.*" xmlns:local="*" xmlns:pdf1="com.pdf.*" xmlns:control="com.pdf.control.*" xmlns:canvas="com.pdf.canvas.*">
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
 
 	<fx:Script>
 		<![CDATA[
-			import mx.controls.Alert;
-			import mx.events.DragEvent;
-			import mx.managers.DragManager;
-			
-			import org.pdf.ForcibleLoader;
-			private var documentURL:String = "documents/wiki.swf";
-			private var movieClip:MovieClip = new MovieClip;
-			private var startPoint:Point = new Point;
-			private var endPoint:Point = new Point;
-			
-			private var selectionRegion:Shape = new Shape;
-			private var draggingStarted:Boolean = false;
-			
-			private function init():void{
-				
-				var loader:Loader = new Loader();
-				loader.contentLoaderInfo.addEventListener(Event.OPEN, onStartUp);
-				loader.contentLoaderInfo.addEventListener(ProgressEvent.PROGRESS, progress);
-				loader.contentLoaderInfo.addEventListener(Event.COMPLETE, pdfLoadingCompleteEvent);
-				loader.contentLoaderInfo.addEventListener(IOErrorEvent.IO_ERROR,ioErrorHandler);
-				
-				var fLoader:ForcibleLoader = new ForcibleLoader(loader);
-				fLoader.load(new URLRequest(documentURL));
-				
-				pdfViewer.addChild(fLoader.loader);
 
+			private var documentURL:String = "documents/";
+
+			
+			
+			private function init():void
+			{
+				pdfViewer.loadFile(documentURL + documentList.selectedItem);
+				pdfViewer.addEventListener(SecurityErrorEvent.SECURITY_ERROR, function(event:SecurityErrorEvent):void{});
+				pdfViewer.addEventListener(IOErrorEvent.IO_ERROR, function(event:IOErrorEvent):void{});
 			}
 			
-			private function pdfLoadingCompleteEvent(event:Event):void{
-				if(event.currentTarget.content is MovieClip){
-					movieClip = event.currentTarget.content as MovieClip;
-					pdfViewer.height = movieClip.height;
-					//scroller.height = movieClip.height;
-					//vg.height = movieClip.height;
-					pdfViewer.width = movieClip.width;
-					movieClip.gotoAndStop(1);
-					controls.target = movieClip;
-					controls.currentPage = movieClip.currentFrame;
-					controls.Pages = movieClip.totalFrames;
-				}
-				else if(event.currentTarget.content is AVM1Movie){
-					var avm1Movie:AVM1Movie = event.currentTarget.content as AVM1Movie;
-					pdfViewer.height = avm1Movie.height;
-					pdfViewer.width = avm1Movie.width;
-					controls.target = null;
-					controls.currentPage = 1;
-					controls.Pages = 1;
-				}
-				else{
-					trace("pdfLoadingCompleteEvent: pdf loading error.");
-				}
-			}
-			
-			private function onStartUp(event:Event):void{
-				trace("startup ");
-			}
-			
-			private function ioErrorHandler(event:Event):void{
-				trace("io erro");
-			}
-			private function progress(event:Event):void{
-				trace("progress ..........");
-			}
-			
-			protected function pdfViewer_mouseDownHandler(event:MouseEvent):void
+			protected function loadFile_clickHandler(event:MouseEvent):void
 			{
 				// TODO Auto-generated method stub
-				startPoint = new Point(event.localX, event.localY);
-				draggingStarted = true;
-			}
-			
-			protected function pdfViewer_mouseMoveHandler(event:MouseEvent):void
-			{
-				if(draggingStarted){
-					scroller.verticalScrollBar.value = mouseY;
-					endPoint = new Point(event.localX, event.localY);
-					drawRegion();
-				}
+				pdfViewer.loadFile(documentURL + documentList.selectedItem);
 				
 			}
 			
-			protected function pdfViewer_mouseUpHandler(event:MouseEvent):void
+			
+			protected function showFile_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				trace(pdfViewer.regionConfigContent);
+			}
+			
+			protected function pdfViewer_unRecognizedFileTypeHandler(event:Event):void
 			{
 				// TODO Auto-generated method stub
 				
-				if(draggingStarted){
-					endPoint = new Point(event.localX, event.localY);
-					drawRegion();
-				}
-				draggingStarted = false;
-				/**
-				 * Drawing extra shape so that 
-				 * last drawing shapes remain in position
-				 * and if user wants to draw another shape the last 
-				 * extra shpae will be removed
-				 * */
-				selectionRegion = new Shape;
-				pdfViewer.addChild(selectionRegion);
-				
-				
 			}
 			
-			private function drawRegion():void{
-				/**
-				 * preparing for drawing rectangle shpes
-				 * */
-				selectionRegion = new Shape() ;
-				
-				/**
-				 * removed previous drawn shpae
-				 * */
-				if(pdfViewer.numChildren > 1){
-					pdfViewer.removeChildAt(pdfViewer.numChildren - 1);
-				}
-				
-				var width:int = Math.abs(startPoint.x - endPoint.x);
-				var height:int = Math.abs(startPoint.y - endPoint.y);
-				
-				if(endPoint.x - startPoint.x >= 0 && endPoint.y - startPoint.y >= 0){
-					selectionRegion.graphics.lineStyle(2, 0x990000, .75);
-					selectionRegion.graphics.drawRect(startPoint.x, startPoint.y, width, height); 
-					
-					pdfViewer.addChild(selectionRegion);
-				}
-			}
-			
-
 		]]>
 	</fx:Script>
-	<!--<mx:VBox width="100%" verticalGap="10" backgroundColor="#B5AEAE"  verticalScrollPolicy="on">
-		<pdf:Control id="controls" borderStyle="solid" borderColor="#B5AEAE"/>
-		<mx:HBox width="100%" height="100%" backgroundColor="#B5AEAE" horizontalAlign="center">
-			<mx:UIComponent id="pdfViewer" mouseEnabled="true"
-							mouseMove="pdfViewer_mouseMoveHandler(event)"
-							mouseUp="pdfViewer_mouseUpHandler(event)" 
-							mouseDown="pdfViewer_mouseDownHandler(event)"/>	
-		</mx:HBox>
-	</mx:VBox>-->
+
 	<s:Scroller id="scroller" height="100%" width="100%">
 		<s:Group width="100%" height="100%">
 			<s:VGroup width="100%" height="100%" paddingBottom="50">
-				<pdf:Control id="controls" borderStyle="solid" borderColor="#B5AEAE"/>
+				<control:Control id="controls" pdfCanvas="{pdfViewer}" 
+								 noOfPages="{pdfViewer.noOfPages}"
+								 borderStyle="solid" 
+								 borderColor="#B5AEAE"/>
+				<mx:HBox width="100%">
+					<s:Button id="loadFile" label="Load" click="loadFile_clickHandler(event)"/>
+					<s:DropDownList id="documentList" selectedIndex="0">
+						<s:ArrayCollection>
+							<fx:String>doc.swf</fx:String>
+							<fx:String>wiki.swf</fx:String>
+						</s:ArrayCollection>
+					</s:DropDownList>
+					
+					<s:Button id="showFile" label="ShowConfig" click="showFile_clickHandler(event)"/>
+				</mx:HBox>
 				<s:HGroup width="100%" height="100%" horizontalAlign="center">
-					<mx:UIComponent id="pdfViewer" mouseEnabled="true"
-									mouseMove="pdfViewer_mouseMoveHandler(event)"
-									mouseUp="pdfViewer_mouseUpHandler(event)" 
-									mouseDown="pdfViewer_mouseDownHandler(event)"/>	
+
+						<canvas:PDFCanvas id="pdfViewer"
+										  unRecognizedFileType="pdfViewer_unRecognizedFileTypeHandler(event)"/>
+				
+					
 				</s:HGroup>
 			</s:VGroup>
 		</s:Group>
