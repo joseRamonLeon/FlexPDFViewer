@@ -138,6 +138,7 @@ package com.pdf.canvas
 		
 		private function fLoader__completeEventHandler(event:Event):void
 		{
+			clearAllSelection();
 			/**
 			 * Remove progress bar after loading file
 			 * */
@@ -201,6 +202,7 @@ package com.pdf.canvas
 			{
 				configPages.pdfXML = XML(_regionConfigContent);
 			}
+			drawPageRegion();
 		}
 
 		private function fLoader_progressEventHandler(event:ProgressEvent):void
@@ -226,6 +228,7 @@ package com.pdf.canvas
 			region.y = regionSelector.y;
 			region.height = regionSelector.height;
 			region.width = regionSelector.width;
+			region.type = regionSelector.type;
 			
 			currentPage.regionList.addItem(region);
 		}
@@ -245,6 +248,7 @@ package com.pdf.canvas
 				regionSelector.y = selectedRegion.y;
 				regionSelector.height = selectedRegion.height;
 				regionSelector.width = selectedRegion.width;
+				regionSelector.type = selectedRegion.type;
 				
 				addChild(regionSelector);
 			}

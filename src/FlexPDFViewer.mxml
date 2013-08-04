@@ -12,11 +12,62 @@
 
 			private var documentURL:String = "documents/";
 
+			private var sampleConfigXML:XML = <Pages>
+			  <Page no="1">
+			    <Region x="125" y="132" type="paragraph" width="391" height="194"/>
+			  </Page>
+			  <Page no="2">
+			    <Region x="26" y="69" type="paragraph" width="782" height="461"/>
+			  </Page>
+			  <Page no="3">
+			    <Region x="61" y="137" type="paragraph" width="650" height="281"/>
+			  </Page>
+			  <Page no="4">
+			    <Region x="394" y="413" type="paragraph" width="419" height="128"/>
+			  </Page>
+			  <Page no="5">
+			    <Region x="30" y="69" type="paragraph" width="778" height="481"/>
+			  </Page>
+			  <Page no="6">
+			    <Region x="29" y="73" type="paragraph" width="775" height="253"/>
+			  </Page>
+			  <Page no="7">
+			    <Region x="40" y="139" type="paragraph" width="774" height="300"/>
+			  </Page>
+			  <Page no="8">
+			    <Region x="27" y="72" type="paragraph" width="781" height="256"/>
+			    <Region x="25" y="351" type="paragraph" width="779" height="162"/>
+			  </Page>
+			  <Page no="9"/>
+			  <Page no="10"/>
+			  <Page no="11"/>
+			  <Page no="12"/>
+			  <Page no="13"/>
+			  <Page no="14"/>
+			  <Page no="15"/>
+			  <Page no="16"/>
+			  <Page no="17"/>
+			  <Page no="18"/>
+			  <Page no="19"/>
+			  <Page no="20"/>
+			  <Page no="21"/>
+			  <Page no="22"/>
+			  <Page no="23"/>
+			  <Page no="24"/>
+			  <Page no="25"/>
+			  <Page no="26"/>
+			  <Page no="27"/>
+			  <Page no="28"/>
+			  <Page no="29"/>
+			  <Page no="30"/>
+			  <Page no="31"/>
+			  <Page no="32"/>
+			</Pages>;
 			
 			
 			private function init():void
 			{
-				pdfViewer.loadFile(documentURL + documentList.selectedItem);
+				pdfViewer.loadFile(documentURL + documentList.selectedItem, sampleConfigXML.toXMLString());
 				pdfViewer.addEventListener(SecurityErrorEvent.SECURITY_ERROR, function(event:SecurityErrorEvent):void{});
 				pdfViewer.addEventListener(IOErrorEvent.IO_ERROR, function(event:IOErrorEvent):void{});
 			}
@@ -24,7 +75,14 @@
 			protected function loadFile_clickHandler(event:MouseEvent):void
 			{
 				// TODO Auto-generated method stub
-				pdfViewer.loadFile(documentURL + documentList.selectedItem);
+				if(documentList.selectedIndex == 0)
+				{
+					pdfViewer.loadFile(documentURL + documentList.selectedItem, sampleConfigXML.toXMLString());
+				}
+				else
+				{
+					pdfViewer.loadFile(documentURL + documentList.selectedItem);
+				}
 				
 			}
 			
