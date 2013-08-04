@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- containers\spark\mySkins\MyBorderSkin.mxml -->
+<s:Skin xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		xmlns:mx="library://ns.adobe.com/flex/mx" 
+		xmlns:s="library://ns.adobe.com/flex/spark" 
+		alpha.disabled="0.5">
+	
+	<fx:Metadata>
+		[HostComponent("com.pdf.region.RegionSelector")]
+	</fx:Metadata> 
+	
+	<!-- Define the skin states. -->
+	<s:states>
+		<s:State name="normal" />
+		<s:State name="disabled" />
+	</s:states>
+	
+	<!-- Define a Rect to fill the area of the skin. -->
+	<s:Rect x="0" y="0"
+			radiusX="6" radiusY="6"
+			height="100%" width="100%">
+		<s:stroke>
+			<s:LinearGradientStroke weight="1" >
+				<s:GradientEntry color="{hostComponent.borderColor}" alpha="1"/>
+			</s:LinearGradientStroke>
+		</s:stroke>
+	</s:Rect>
+	
+	<!-- Define the content area of the container. -->
+	<s:Group id="contentGroup"
+			 left="5" right="5" top="5" bottom="5">
+		<s:layout>
+			<s:VerticalLayout/>
+		</s:layout>
+		<mx:HBox width="100%" height="20" horizontalAlign="right" 
+				 verticalAlign="middle" horizontalGap="0" 
+				 backgroundColor="{hostComponent.headerBackgroundColor}" >
+			<s:Label text="{hostComponent.headerText}" width="100%" fontFamily="Courier New, Courier, monospace"
+					 textAlign="right" color="0xFAF2F2" textDecoration="underline" 
+					 fontStyle="italic" fontWeight="bold"/>
+		</mx:HBox>
+		<s:BorderContainer width="100%" height="100%" alpha="0"/>
+	</s:Group>
+	
+	
+</s:Skin>

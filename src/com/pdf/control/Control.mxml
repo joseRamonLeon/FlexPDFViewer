@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:HBox xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx" width="100%" 
+		 horizontalAlign="center">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import com.pdf.canvas.PDFCanvas;
+			
+			[Bindable]
+			private var _pdfCanvas:PDFCanvas = new  PDFCanvas;
+			[Bindable]
+			private var currentPage:int = 1;
+			[Bindable]
+			public var noOfPages:int = 1;
+
+			public function get pdfCanvas():PDFCanvas
+			{
+				return _pdfCanvas;
+			}
+
+			public function set pdfCanvas(value:PDFCanvas):void
+			{
+				_pdfCanvas = value;
+			}
+
+			protected function btnCurrentPage_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				pdfCanvas.prevPage();
+				currentPage = pdfCanvas.currentPageNo;
+			}
+			
+			protected function btnNextPage_clickHandler(event:MouseEvent):void
+			{
+				// TODO Auto-generated method stub
+				
+				pdfCanvas.nextPage();
+				currentPage = pdfCanvas.currentPageNo;
+			}
+			
+		]]>
+	</fx:Script>
+	<mx:Button id="btnCurrentPage" label="Previous Page" click="btnCurrentPage_clickHandler(event)"/>
+	<mx:Button id="btnNextPage" label="Next Page" click="btnNextPage_clickHandler(event)"/>
+	<mx:Label text="{currentPage + '/'+ noOfPages + ' Pages'}"/>
+</mx:HBox>

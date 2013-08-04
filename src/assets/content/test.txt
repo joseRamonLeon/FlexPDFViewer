@@ -1,0 +1,646 @@
+<table style="border-collapse:collapse;" border = "1" width = "859.5px"><th><tr><td width = "120px"></td><td width = "30px"></td><td width = "93px"></td><td width = "3px"></td><td width = "30px"></td><td width = "8px"></td><td width = "44px"></td><td width = "49px"></td><td width = "28px"></td><td width = "9px"></td><td width = "38px"></td><td width = "7px"></td><td width = "62px"></td><td width = "40px"></td><td width = "11px"></td></tr></th><tr><td colspan = "1" style="padding-left:0px;">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">Three months ended
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "2" align = "left">Six months
+ ended
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "2" align = "left">From April 1
+1, 2006 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">  
+</td><td colspan = "2" align = "left">  
+Nov
+ember  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "2" align = "left"> November 30,   
+</td><td colspan = "3" align = "left">November 30, 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "2" align = "left">(date of inception) to    
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">  
+</td><td colspan = "2" align = "left">  30,
+ 2012 November 30
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">, 2011 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "2" align = "left">201
+2 
+</td><td colspan = "3" align = "left">2
+01
+1   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "2" align = "left">November 30
+, 2012   
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">
+</td><td colspan = "2" align = "left">(Una
+udited  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "2" align = "left"> (Unaudit
+ed)   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "3" align = "left">) (Unaudit
+e
+d) 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "3" align = "left"> (Unau
+di
+ted)   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "2" align = "left">(Unaudit
+ed)   
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">  
+</td><td colspan = "1" align = "left">  
+- 
+</td><td colspan = "1" align = "left">  
+ 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">$ - 
+</td><td colspan = "1" align = "left"> $
+</td><td colspan = "1" align = "left">  
+ 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">$
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "right">  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">Revenue 
+</td><td colspan = "1" align = "left">$  
+</td><td colspan = "1" align = "left">$ 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">- 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">- 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">-   
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">  
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "right">  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">Expenses 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "right">  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">Acquisition of mineral
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">- 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">- 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">4,242 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">property interest 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">Mineral property
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">- 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">- 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">20,082 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">exploration 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:11px;">(Gain) loss on foreign
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">(4 )
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">6 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">97 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">exchange 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">Professional fees 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">14,191   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">1,330 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">22,031  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">2,366  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">67,477  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">Communication 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">-   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">- 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">6,884  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">expenses 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">Office expenses 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">-   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">519 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">3,072  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">563  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right"> 13,928  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">Travel and entertainment
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">1,775 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">1,929  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">1,775 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">15,127 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">Transfer agent 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">600 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">600  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">1,200 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">10,215 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">Interest expense on
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">625  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">623 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">1,250  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">1,253 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">4,373 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">promissory notes 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:8px;">Filing fees 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">1,020  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">1,542 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">1,020  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">12,973 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">30,444 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:7px;">Other services 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">-   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">- 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">137  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right"> 187  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">Total expenses 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">15,836   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">6,385 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">30,039  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">20,136  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right"> 173,056  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">  
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">   
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">   
+</td><td colspan = "1" align = "right">  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">Net loss 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">(15,836 )  
+</td><td colspan = "2" align = "left">(
+6,385  
+</td><td colspan = "1" align = "left">)
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">(30,039 )  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">(20,136 ) 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">(173,056 )
+</td><td colspan = "1" align = "left">  
+</td></tr><tr><td colspan = "1" style="padding-left:0px;"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right"> 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">Other comprehensive loss 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right"> 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:5px;">- Currency exchange
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">- 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">-  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">- 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">(222 )
+</td><td colspan = "1" align = "left"> 
+</td></tr><tr><td colspan = "1" style="padding-left:18px;">loss 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right"> 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">Comprehensive loss 
+</td><td colspan = "1" align = "left">$ 
+</td><td colspan = "1" align = "left">(15,836 )  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">(6,385 )
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">(30,039 )  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">(20,136 ) 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">(173,278 )
+</td><td colspan = "1" align = "left"> 
+</td></tr><tr><td colspan = "1" style="padding-left:0px;"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right"> 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "2" style="padding-left:0px;">Basic and diluted loss per
+ $  
+</td><td colspan = "1" align = "left">(0.00 )  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">(0.00  )
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">(0.00 )  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">(0.00 )
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right">  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">common share 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "right"> 
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:0px;">Weighted average number 
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">  
+</td><td colspan = "1" align = "left"> 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">  
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:7px;">of common shares used 
+</td><td colspan = "4" align = "left">7,
+900,000  7,9
+0
+0,000 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "2" align = "left">7,9
+00,000 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "2" align = "left">7,9
+00,000 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr><tr><td colspan = "1" style="padding-left:7px;">in per share calculations 
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "left">
+</td><td colspan = "1" align = "right">
+</td><td colspan = "1" align = "left">
+</td></tr></table>
