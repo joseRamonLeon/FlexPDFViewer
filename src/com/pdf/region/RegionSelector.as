@@ -8,7 +8,11 @@ package com.pdf.region
 	import flash.ui.ContextMenuItem;
 	import spark.components.SkinnableContainer;
 	
-	
+	/**
+	 * This class dispatched two events
+	 * 1.	regionSelectorTypeChange event
+	 * 2.	removeRegionSelection event
+	 * */
 	[Event(name="regionSelectorTypeChange", type="com.pdf.event.RegionSelectorEvent")]
 	[Event(name="removeRegionSelection", type="com.pdf.event.RegionSelectorEvent")]
 	public class RegionSelector extends SkinnableContainer
@@ -33,8 +37,20 @@ package com.pdf.region
 			this.height = height;
 			this.width = width;
 			
+			/**
+			 * by default shpae is for paragraph
+			 * */
 			setStyleByType(RegionSelectionType.PARAGRAPH);
 			
+			/**
+			 * context menu items are
+			 * 1.	paragraph
+			 * 2.	list
+			 * 3.	paragraph
+			 * 4.	image
+			 * 5.	text with line break
+			 * 6.	remove shapes
+			 * */
 			contextMenu = menu;
 			contextMenu.hideBuiltInItems();
 			
@@ -73,6 +89,15 @@ package com.pdf.region
 		
 		public function setStyleByType(selectionType:String):void
 		{
+			/**
+			 * change the style
+			 * different styles for
+			  * 1.	paragraph
+			 * 2.	list
+			 * 3.	paragraph
+			 * 4.	image
+			 * 5.	text with line break
+			 * */
 			if(selectionType == RegionSelectionType.PARAGRAPH)
 			{
 				headerBackgroundColor = 0x2AA83D;

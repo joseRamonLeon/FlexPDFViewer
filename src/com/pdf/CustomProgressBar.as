@@ -16,9 +16,6 @@ package com.pdf
 		}
 		override protected function updateDisplayList(w:Number, h:Number):void {
 			super.updateDisplayList(w, h);
-			
-			// center the label field on the circle in the background image 
-			
 			if (mx_internal::_labelField != null) {
 				mx_internal::_labelField.move(7, 14);
 			}
