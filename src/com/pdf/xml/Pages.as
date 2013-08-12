@@ -27,6 +27,21 @@ package com.pdf.xml
 			_pdfXML = FlexXBEngine.instance.serialize(this);
 			return _pdfXML;
 		}
+		public function toHTML():String
+		{
+			var htmlContent:String = "";
+			for each (var page:Page in pageList) 
+			{
+				for each (var region:Region in page.regionList) 
+				{
+					if(region.htmlContent != null)
+					{
+						htmlContent += unescape(region.htmlContent);
+					}
+				}
+			}
+			return htmlContent;
+		}
 	}
 	
 }

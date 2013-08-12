@@ -1,11 +1,13 @@
 package com.pdf.region
 {
 	import com.pdf.event.RegionSelectorEvent;
+	import com.pdf.skin.RegionSelectorSkin;
 	
 	import flash.events.ContextMenuEvent;
 	import flash.events.Event;
 	import flash.ui.ContextMenu;
 	import flash.ui.ContextMenuItem;
+	
 	import spark.components.SkinnableContainer;
 	
 	/**

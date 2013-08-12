@@ -34,7 +34,7 @@ package com.pdf.canvas
 		private var fLoader:ForcibleLoader = new ForcibleLoader;
 		private var progressBar:CustomProgressBar = new CustomProgressBar;
 		private var movieClip:MovieClip = new MovieClip;
-		private var configPages:Pages = new Pages;  
+		public var configPages:Pages = new Pages;  
 		
 		[Bindable]
 		public var noOfPages:int = 1;
@@ -226,11 +226,38 @@ package com.pdf.canvas
 			region.height = regionSelector.height;
 			region.width = regionSelector.width;
 			region.type = regionSelector.type;
-			
+			regionSelector.addEventListener("regionSelectorTypeChange", pdfCanvas_regionSelectorTypeChangeEventHandler);
+			regionSelector.addEventListener("removeRegionSelection", pdfCanvas_removeRegionSelectionChangeEventHandler);
 			currentPage.regionList.addItem(region);
 		}
+		protected function pdfCanvas_regionSelectorTypeChangeEventHandler(event:RegionSelectorEvent):void
+		{
+			var selectedRegion:RegionSelector = event.regionSelector;
+			for each (var region:Region in currentPage.regionList) 
+			{
+				if(region.x == selectedRegion.x && region.y == selectedRegion.y)
+				{
+					region.type = selectedRegion.type;
+					region.htmlContent = null;
+				}
+			}
+		}
+		protected function pdfCanvas_removeRegionSelectionChangeEventHandler(event:RegionSelectorEvent):void
+		{
+			var selectedRegion:RegionSelector = event.regionSelector;
+			for(var i:int = 0; i < currentPage.regionList.length; i ++) 
+			{
+				var currentRegion:Region = currentPage.regionList.getItemAt(i) as Region;
+				if(currentRegion.x == selectedRegion.x && currentRegion.y == selectedRegion.y)
+				{
+					currentPage.regionList.removeItemAt(i);
+				}
+			}
+			
+		}
 		
-		private function get currentPage():Page
+		
+		public function get currentPage():Page
 		{
 			return configPages.pageList.getItemAt( currentPageNo - 1 ) as Page;
 		}
@@ -246,6 +273,8 @@ package com.pdf.canvas
 				regionSelector.height = selectedRegion.height;
 				regionSelector.width = selectedRegion.width;
 				regionSelector.type = selectedRegion.type;
+				regionSelector.addEventListener("regionSelectorTypeChange", pdfCanvas_regionSelectorTypeChangeEventHandler);
+				regionSelector.addEventListener("removeRegionSelection", pdfCanvas_removeRegionSelectionChangeEventHandler);
 				
 				addChild(regionSelector);
 			}

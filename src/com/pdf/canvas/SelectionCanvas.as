@@ -9,6 +9,7 @@ package com.pdf.canvas
 	import flash.events.MouseEvent;
 	import flash.geom.Point;
 	
+	import mx.controls.Alert;
 	import mx.core.UIComponent;
 
 	/**
@@ -64,13 +65,14 @@ package com.pdf.canvas
 			/**
 			 * Start Point wehre mouse click
 			 * */
-			startPoint = new Point(event.stageX, event.stageY);
+			//startPoint = new Point(event.localX, event.localY);
+			startPoint = globalToLocal(new Point(event.stageX, event.stageY));
 			
 			/**
 			 * adding mouse move and mouse release event
 			 * we will remove those event after releaseing mouse
 			 * */
-			addEventListener(MouseEvent.MOUSE_MOVE, selectionCanvas_mouseMoveEventHandler);
+			stage.addEventListener(MouseEvent.MOUSE_MOVE, selectionCanvas_mouseMoveEventHandler);
 			stage.addEventListener(MouseEvent.MOUSE_UP, selectionCanvas_mouseUpEventHandler);
 		}
 		
@@ -85,16 +87,21 @@ package com.pdf.canvas
 			/**
 			 * convert selection canvas cooridnate (local coordinate) from global coordinate system 
 			 * */
-			var localStartPoint:Point = globalToLocal(startPoint);
+			//var localStartPoint:Point = globalToLocal(startPoint);
 			var localEndPoint:Point = globalToLocal(new Point(event.stageX, event.stageY));
+			
+			selectionTop = Math.min(localEndPoint.y, startPoint.y);
+			selectionLeft = Math.min(localEndPoint.x, startPoint.x);
+			selectionWidth = Math.abs(localEndPoint.x - startPoint.x);
+			selectionHeight = Math.abs(localEndPoint.y - startPoint.y);
 			
 			/**
 			 * Calculate top, left, height and width
 			 * */
-			selectionTop = Math.min(localEndPoint.y, localStartPoint.y);
-			selectionLeft = Math.min(localEndPoint.x, localStartPoint.x);
-			selectionWidth = Math.abs(localEndPoint.x - localStartPoint.x);
-			selectionHeight = Math.abs(localEndPoint.y - localStartPoint.y);
+			/*selectionTop = Math.min(event.localY, startPoint.y);
+			selectionLeft = Math.min(event.localX, startPoint.x);
+			selectionWidth = Math.abs(event.localX - startPoint.x);
+			selectionHeight = Math.abs(event.localY - startPoint.y);*/
 			
 			/**
 			 * drawing rectangle
@@ -128,7 +135,7 @@ package com.pdf.canvas
 			/**
 			 * removing the mouse move and release evnet
 			 * */
-			removeEventListener(MouseEvent.MOUSE_MOVE, selectionCanvas_mouseMoveEventHandler);
+			stage.removeEventListener(MouseEvent.MOUSE_MOVE, selectionCanvas_mouseMoveEventHandler);
 			stage.removeEventListener(MouseEvent.MOUSE_UP, selectionCanvas_mouseUpEventHandler);
 		}
 		override protected function updateDisplayList(unscaledWidth:Number, unscaledHeight:Number):void
